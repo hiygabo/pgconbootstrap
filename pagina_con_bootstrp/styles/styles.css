@@ -1,0 +1,65 @@
+.inicio{
+    display: grid;
+    grid-template-areas: "cabecera cabecera"
+                        "contenido1 opiniones"
+                        "contenido2 opiniones"
+                        "carrusel opiniones "
+                        "pie pie";
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto 1fr auto;   
+}
+.cabecera{
+    padding: 5px;
+    grid-area: cabecera;
+
+}
+.contenido1{
+    padding: 25px;
+    grid-area: contenido1;
+    
+}
+.contenido2{
+    padding: 25px;
+    grid-area: contenido2;
+}
+.carrusel{
+    padding: 5px;
+    grid-area: carrusel;
+    width: 500px;
+    height: 150px;
+    margin-left: 500px;
+    
+}
+.opiniones{
+    padding: 5px;
+    grid-area: opiniones;
+    
+}
+.pie{
+    padding: 5px;
+    grid-area: pie;
+    background-color: #f1f1f1;
+    height: 200px;
+    text-align: center;
+    padding: 20px;
+    background-color: #f1f1f1;
+    margin-top: 150px;
+}
+
+
+p {
+    
+    color: #333;
+}
+h5{
+    
+    color: #333;
+}
+
+.store-icons{
+    margin-top: 25px;
+}
+.wayfinder-text{
+    margin-top: 20px;
+}
+

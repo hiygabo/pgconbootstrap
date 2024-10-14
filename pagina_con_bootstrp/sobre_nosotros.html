@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/styles3.css">
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="inicio">
+        
+    
+        <div class="cabecera">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">WayFinder</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="incio.html">Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="descarga.html">Descarga WayFinder</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="sobre_nosotros.html">Registrate</a>
+                      </li>
+                      <button type="button" class="btn btn-secondary">Iniciar Sesión</button>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                         
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Buscar ciudades en WayFinder" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+        </div>
+
+        <div class="registration-form">
+            <h2>REGISTRATE AHORA EN WAYFINDER</h2>
+            <form action="/submit" method="post">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" required>
+    
+                <label for="apellido">Apellido</label>
+                <input type="text" id="apellido" name="apellido" required>
+    
+                <label for="celular">Celular</label>
+                <input type="tel" id="celular" name="celular" pattern="[0-9]{10}" placeholder="" required>
+    
+                <label for="correo">Correo Electrónico</label>
+                <input type="email" id="correo" name="correo" required>
+    
+                <label for="password">Contraseña</label>
+                <input type="password" id="password" name="password" required>
+    
+                <label for="pais">País</label>
+                <select id="pais" name="pais" required>
+                    <option value="" disabled selected>Seleccione su país</option>
+                    <option value="mexico">México</option>
+                    <option value="argentina">Argentina</option>
+                    <option value="españa">España</option>
+                    <option value="colombia">Colombia</option>
+                    <option value="peru">Perú</option>
+                    <option value="peru">Bolivia</option>
+                    <option value="peru">Chile</option>
+                    <option value="peru">Ecuador</option>
+                    <option value="peru">Paraguay</option>
+                    <option value="peru">Uruguay</option>
+                    <option value="peru">Venezuela</option>
+                   
+                </select>
+    
+                <label for="ciudad">Ciudad</label>
+                <input type="text" id="ciudad" name="ciudad" required>
+    
+                <button type="submit">Registrarse</button>
+            </form>
+        </div>
+
+
+
+
+
+       
+
+        
+
+        <div class="pie">
+            <div class="social-icons">
+                <a href="https://www.instagram.com"><img src="images/ig.jpg" alt="Instagram" width="50px" height="50px"></a>
+                <a href="https://www.facebook.com"><img src="images/face.jpg" alt="Facebook" width="50px" height="50px"></a>
+                <a href="https://www.twitter.com"><img src="images/x.png" alt="X" width="50px" height="50px"></a>
+            </div>
+    
+
+            <div class="store-icons">
+                <a href="https://play.google.com/store"><img src="images/playstore.png" alt="Google Play" width="200px" height="50px"></a>
+                <a href="https://www.apple.com/app-store"><img src="images/apstore.png" alt="App Store" width="200px" height="50px"></a>
+            </div>
+    
+            
+            <div class="wayfinder-text"><strong>© Wayfinder 2024</strong></div>
+        </div>
+</body>
+</html>

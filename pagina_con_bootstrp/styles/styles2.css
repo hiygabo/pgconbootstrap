@@ -1,0 +1,48 @@
+.pie{
+    padding: 5px;
+    grid-area: pie;
+    background-color: #f1f1f1;
+    height: 200px;
+    text-align: center;
+    padding: 20px;
+    background-color: #f1f1f1;
+    margin-top: 480px;
+}
+
+
+p {
+    
+    color: #333;
+}
+h5{
+    
+    color: #333;
+}
+
+.store-icons{
+    margin-top: 25px;
+}
+.wayfinder-text{
+    margin-top: 20px;
+}
+.inicio{
+    display: grid;
+    grid-template-areas: "cabecera cabecera"
+                        "carrusel carrusel "
+                        "e2 e2"
+                        "pie pie";
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto 1fr auto;   
+}
+.cabecera{
+    padding: 5px;
+    grid-area: cabecera;
+}
+.carrusel{
+    padding: 5px;
+    grid-area: carrusel;
+    width: 500px;
+    height: 150px;
+    margin-left: 650px;
+    
+}
